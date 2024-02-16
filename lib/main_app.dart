@@ -11,7 +11,7 @@ class MainApp extends StatelessWidget {
       home: const HomeScreen(),
       theme: ThemeData(
         scaffoldBackgroundColor: const Color.fromARGB(255, 168, 250, 165),
-        appBarTheme: const AppBarTheme(color: Color.fromARGB(255, 255, 90, 78)),
+        appBarTheme: const AppBarTheme(color: Color.fromARGB(255, 14, 95, 148)),
         textTheme: const TextTheme(
           headlineLarge: TextStyle(
             fontFamily: 'sans-serif',
