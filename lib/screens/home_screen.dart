@@ -28,10 +28,12 @@ class HomeScreen extends StatelessWidget {
                 style: AppTheme.lightTheme.textTheme.bodySmall),
             leading:
                 const Icon(Icons.input_rounded, color: AppTheme.primaryColor),
-            trailing: const Icon(
-              Icons.arrow_right_alt_outlined,
-              color: AppTheme.primaryColor,
-            ),
+            //Icon
+            trailing: const CircularProgressIndicator(),
+            //trailing: const Icon(
+            // Icons.arrow_right_alt_outlined,
+            //color: AppTheme.primaryColor,
+            //),
             onTap: () {
               final ruta1 = MaterialPageRoute(builder: (context) {
                 return const Inputs();
